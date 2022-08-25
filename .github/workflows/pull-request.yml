@@ -1,8 +1,9 @@
+name: CI
 on:
   push:
-    branches:
-    - "main"  # Support wildcard matching
-
+    branches: [ dev, test, master, main ]
+  pull_request:
+    branches: [ dev, test, master, main ]
 jobs:
   pull-request:
     runs-on: ubuntu-latest
