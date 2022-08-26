@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: pull-request
-      uses: encaps/pull-request@v2
+      uses: repo-sync/pull-request@v2
       with:
         source_branch: ""                                 # If blank, default: triggered branch
         destination_branch: "main"                      # If blank, default: master
