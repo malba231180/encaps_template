@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ dev, test, master, main ]
+    branches: [ dev, test, master, mainw ]
   pull_request:
-    branches: [ dev, test, master, main ]
+    branches: [ dev, test, master, mainw ]
 jobs:
   pull-request:
     runs-on: ubuntu-latest
