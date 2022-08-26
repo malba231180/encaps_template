@@ -30,7 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create Pull Request
-        uses: marceloalbam/encaps/create-pull-request@v2
+        uses: marceloalbam/encaps/create-pull-request@v1
         with:
           commit-message: 'build: update distribution'
           title: Update distribution
